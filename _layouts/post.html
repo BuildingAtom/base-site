@@ -1,5 +1,18 @@
 ---
+# single post view
 layout: default
 ---
+<article class="post single-view" itemscope itemtype="http://schema.org/BlogPosting">
 
-{{ content }}
+  {%- if page.splash -%}
+    <img class="splash" src="{{ page.splash | escape }}"/>
+  {%- endif -%}
+
+  {%- include post-header.html -%}
+  
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  
+  <!-- do I add disqus? -->
+</article>

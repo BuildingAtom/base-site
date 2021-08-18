@@ -45,6 +45,8 @@ collections:
     output: true
   projects:
     output: true
+  tags:
+    output: true
 
 # Footer Data (also includes description from metadata
 show-description: true
@@ -79,6 +81,8 @@ related-sites:
 # Extras
 # Google Analytics (comment to ignore) *not implemented
 #google-analytics:
+# Code highlighter
+highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
