@@ -1,0 +1,16 @@
+- name: Blog
+  href: /
+
+- name: Areas
+  href: /areas/
+
+- name: Projects
+  href: /projects/
+
+- name: About
+  href: /about/
+
+- name: Search
+  href: /search/
+  icon: assets/search.svg
+  hide-text: true

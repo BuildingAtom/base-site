@@ -1,0 +1,17 @@
+{%- if site.socials -%}
+  <div class="social">
+    {%- if site.social-pre -%}
+      <p class="social-pre">{{ site.social-pre }}</p>
+    {%- endif -%}
+    
+    <ul class="social-list">
+      {%- for social in site.socials -%}
+        <li><a href="{{ social[1] | uri_escape }}"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/{{ social[0] | escape }}.svg" /></a></li>
+      {%- endfor -%}
+    </ul>
+    
+    {%- if site.social-suf -%}
+      <p class="social-suf">{{ site.social-suf }}</p>
+    {%- endif -%}
+  </div>
+{%- endif -%}

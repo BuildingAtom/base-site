@@ -1,0 +1,22 @@
+{%- assign rel = site.related-sites -%}
+{%- if rel and rel.sites.size > 0 -%}
+  <div class="related">
+    {%- if rel.prefix-text -%}
+      <p class="related-pre">{{ rel.prefix-text | escape }}</p>
+    {%- endif -%}
+    <ul class="related-sites">
+    {%- for loc in rel.sites -%}
+      <li>
+        <a href="{{ loc.href }}">
+          {%- if loc.icon -%}
+            <!-- todo: add icon -->
+          {%- endif -%}
+          {%- unless loc.hide-text -%}
+            {{ loc.name | escape }}
+          {%- endunless -%}
+        </a>
+      </li>
+    {%- endfor -%}
+    </ul>
+  </div>
+{%- endif -%}

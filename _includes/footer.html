@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <div class="wrapper">
+  
+    {%- if site.show-description -%}
+      <p class="description">{{- site.description | escape -}}</p>
+    {%- endif -%}
+    
+    {%- if site.copyright -%}
+      <p class="copyright-text">{%- if site.copyright.symbol -%}<span class="symbol">&copy;</span> {%- endif -%}{{ site.copyright.text | markdownify | remove_first: "<p>" }}
+    {%- endif -%}
+    
+    {%- include social.html -%}
+    
+    {%- include rel-sites.html -%}
+    
+  </div>
+</footer>
