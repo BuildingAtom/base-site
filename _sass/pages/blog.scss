@@ -1,0 +1,30 @@
+
+
+.blog {
+  .post-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;    
+    > li {
+      border-bottom: 1px solid $grey-color-light;
+      margin-bottom: $spacing-unit;
+    }
+    > :last-child {
+      border-bottom: none;
+    }
+    .splash {
+      margin-bottom: $spacing-unit/3;
+    }
+  }
+  .rss-subscribe {
+    font-size: $small-font-size;
+    color: $grey-color;
+    a {
+      color: $grey-color;
+      text-decoration-color: fade-out($grey-color, .6);
+      &:hover {
+        text-decoration-color: darken(fade-out($grey-color, .2), 8%);
+      }
+    }
+  }
+}

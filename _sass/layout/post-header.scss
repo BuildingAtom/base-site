@@ -7,8 +7,6 @@ $post-header-num-date-size: 3.6rem;
 $post-header-num-date-date-size: .95rem;
 $post-header-num-date-line-height: 1.1;
 $post-header-num-date-num-size: 2rem;
-$post-header-title-size: 1.8rem;
-$post-header-title-line-height: 1.2;
 $post-header-area-tags-size: .88rem;
 
 //calculated values
@@ -16,7 +14,7 @@ $post-header-num-date-date-margin-top: ($post-header-num-date-date-size * $post-
 $post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-header-num-date-line-height)/2;
 
 .post-header {
-  margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit/3;
   // Work the entire top area
   .post-num-date-title {
     margin-top: $spacing-unit/2;
@@ -40,7 +38,7 @@ $post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-he
         border-radius: 3.5px;
         background-color: $post-header-num-date-background-color;
         color: $post-header-num-date-color;
-        cursor: default;
+        cursor: pointer;
       }
       //Center the texts
       .post-date p {
@@ -69,15 +67,16 @@ $post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-he
       }
     }
     //Keep this sized to just fit
-    .post-title {
+    .title {
       display: inline-block;
       vertical-align: middle;
-      margin: 0;
       padding-left: $spacing-unit/3;
-      font-size: $post-header-title-size;
-      line-height: $post-header-title-line-height;
       width: -webkit-calc(100% - #{$post-header-num-date-size} - #{$spacing-unit/3});
       width: calc(100% - #{$post-header-num-date-size} - #{$spacing-unit/3});
+      a {
+        color: $text-color;
+        text-decoration: none;
+      }
     }
   }
   //make the tags slightly inset

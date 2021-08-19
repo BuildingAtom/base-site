@@ -49,7 +49,7 @@ collections:
     output: true
 
 # Footer Data (also includes description from metadata
-show-description: true
+show-description: false
 copyright:
   symbol: true
   text: >- # supports markdown

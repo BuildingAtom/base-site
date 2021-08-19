@@ -12,10 +12,8 @@ $footer-vertical-rhythm: $spacing-unit/3;
 .site-footer {
   // isolate the footer
   font-size: $small-font-size;
-  .wrapper {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit/2 0;
-  }
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit/2 0;
   
   p {
     @include center-block;
@@ -76,7 +74,7 @@ $footer-vertical-rhythm: $spacing-unit/3;
         color: $grey-color;
         text-decoration-color: fade-out($grey-color, .6);
         &:hover {
-        text-decoration-color: darken(fade-out($grey-color, .2), 8%);
+          text-decoration-color: darken(fade-out($grey-color, .2), 8%);
         }
       }
     }

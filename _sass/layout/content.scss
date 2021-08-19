@@ -4,12 +4,21 @@
 /**
  * Content Section
  */
- 
-.page-content {
-  padding: $spacing-unit 0;
+
+$content-title-size: 1.8rem;
+$content-title-line-height: 1.2;
+
+.content {
+  padding: $spacing-unit/3 0;
   flex: 1;
 }
+.title {
+  margin: 0;
+  font-size: $content-title-size;
+  line-height: $content-title-line-height;
+}
 
+/* Posts */
 .post-content {
   margin-bottom: $spacing-unit;
 
@@ -28,4 +37,12 @@
   h4 {
     font-size: 1rem;
   }
+}
+
+
+/* Pages */
+
+.page-content {
+  padding: $spacing-unit 0;
+  flex: 1;
 }
