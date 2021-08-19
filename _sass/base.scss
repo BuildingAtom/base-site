@@ -16,8 +16,11 @@ html {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
-  display: flex;
+}
+
+body {
   min-height: 100vh;
+  display: flex;
   flex-direction: column;
 }
 
@@ -56,6 +59,7 @@ main {
  * Images
  */
 img {
+  @include center-block
   max-width: 100%;
   vertical-align: middle;
 }
@@ -87,16 +91,6 @@ li {
     margin-bottom: 0;
   }
 }
-
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
-}
-
 
 
 /**
@@ -166,11 +160,17 @@ pre {
  * Icons
  */
 .social-icon {
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    vertical-align: middle;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: middle;
 	filter: $social-icon-filter;
+}
+
+.symbol {
+  font-family: $core-font-family;
+  font-size: 1.25em;
+  vertical-align: middle;
 }
 
 /**

@@ -1,6 +1,6 @@
 # Additional Google Fonts (copy the last href from google fonts)
 google-fonts-href:
-  - "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Oxygen:wght@300;400;700&display=swap"
+  - "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:wght@300;400;700&display=swap"
   - "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+KR:wght@400;700&family=Noto+Sans+SC:wght@400;700&display=swap"
 
 # these are the default font used here as example
@@ -8,7 +8,7 @@ base-font: >
   "Noto Sans"
 
 title-font: >
-  "Oxygen"
+  "Cabin"
 
 fonts:
   - class: jp
@@ -20,4 +20,7 @@ fonts:
   - class: kr
     font: >
       "Noto Sans KR"
+  - class: cabin
+    font: >
+      "Cabin"
 

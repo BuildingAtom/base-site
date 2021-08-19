@@ -1,24 +1,24 @@
 <header class="post-header">
-  <div class="post-num-date">
-    <div class="post-date">
-      <p><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        <span class="month">{{ page.date | date: "%b" | upcase }}</span>
-        <span class="day">{{ page.date | date: "%-d" }}</span>
-        <span class="year">{{ page.date | date: "%Y" }}</span>
-       </time></p>
-    </div>
-    <div class="post-num">
-      {{ page.num }}
-    </div>
+  <div class="post-num-date-title">
+    <div class="post-num-date">
+      <div class="post-date">
+        <p><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          <span class="month">{{ page.date | date: "%b" | upcase }}</span>
+          <span class="day">{{ page.date | date: "%-d" }}</span>
+          <span class="year">{{ page.date | date: "%Y" }}</span>
+         </time></p>
+      </div>
+      <div class="post-num">
+        <p>{{- page.num | strip -}}</p>
+      </div>
+    </div><h1 class="post-title" itemprop="name headline">{{- page.title | escape | strip -}}</h1>
   </div>
-  <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-  <p class="post-areas">
+  <p class="post-areas-tags">
   {%- for area in page.areas -%}
-    <a href="{{ area | prepend: '/areas/' | relative_url }}">[ICON HERE]{{ area | escape }}</a>{%- unless forloop.last -%}, {%- else -%}; {%- endunless -%}
-  {%- endfor -%}</p>
-  <p class="post-tags">
+    <a href="{{ area | prepend: '/areas/' | relative_url }}" class="post-areas"><span class="symbol"><i class="bi bi-geo-alt"></i></span>{{ area | escape }}</a>{%- unless forloop.last -%},&nbsp;{%- else -%};&nbsp;{%- endunless -%}
+  {%- endfor -%}
   {%- for tag in page.tags -%}
-    <a href="{{ tag | prepend: '/tags/' | relative_url }}">#{{ tag | escape }}</a>{%- unless forloop.last -%}, {%- endunless -%}
+    <a href="{{ tag | prepend: '/tags/' | relative_url }}" class="post-tags"><span class="symbol">#</span>{{ tag | escape }}</a>{%- unless forloop.last -%},&nbsp;{%- endunless -%}
   {%- endfor -%}
   </p>
 </header>

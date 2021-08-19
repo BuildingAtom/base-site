@@ -8,7 +8,7 @@ $base-font-weight:  400 !default;
 $small-font-size:   0.8rem !default;
 $base-line-height:  1.5 !default;
 
-$spacing-unit:      1.8em !default;
+$spacing-unit:      1.8rem !default;
 
 //add themeing later
 $text-color:        #111 !default;
@@ -30,32 +30,14 @@ $full-width:        1000px !default;
 // content width when side pane active
 $content-width:     700px !default;
 
-
-/* Media Queries */
-//from answer by Kyzer at https://stackoverflow.com/a/49421832
-$media_queries : (
-    'mobile'    : "only screen and (max-width: 500px)",
-    'tablet'    : "only screen and (min-width: 501px) and (max-width: ($content-width + $full-width)/2)",
-    'desktop'   : "only screen and (min-width: ($content-width + $full-width)/2+1)"
-);
-@mixin media-query($breakpoints) {
-    $conditions : ();
-    @each $breakpoint in $breakpoints {
-        // If the key exists in the map
-        $conditions: append(
-            $conditions,
-            #{inspect(map-get($media_queries, $breakpoint))},
-            comma
-        );
-    }
-    @media #{$conditions} {
-        @content;
-    }
-}
+// Import utilities
+@import "utility";
   
 // Import partials.
 @import
   "base",
   "layout/footer",
+  "layout/content",
+  "layout/post-header",
   "minima/syntax-highlighting"
 ;

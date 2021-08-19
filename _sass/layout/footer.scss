@@ -5,28 +5,7 @@
  * Footer Section
  */
 
-// Utility mixins
-// use in ul or ol (untested) to make inline list
-@mixin inline-list($interpadding) {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  li {
-    display: inline-block;
-    padding-right: $interpadding;
-  }
-  > :last-child {
-    padding-right: 0;
-  }
-}
-// makes the element into a block and centers it
-@mixin center-block {
-  display: block;
-  width: max-content;
-  margin: auto;
-  max-width: inherit;
-}
-
+// Break these out to variables to simplify modification
 $footer-vertical-rhythm: $spacing-unit/3;
 
 // Style code
@@ -57,10 +36,7 @@ $footer-vertical-rhythm: $spacing-unit/3;
     /* small fudge factor to account for change in line heights */
     margin-top: $footer-vertical-rhythm/4;
     .symbol {
-      font-family: $core-font-family;
       padding-right: .25em;
-      font-size: 1.25em;
-      vertical-align: middle;
     }
   }
   

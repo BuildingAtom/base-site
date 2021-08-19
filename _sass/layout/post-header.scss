@@ -1,0 +1,96 @@
+
+
+// various parameters
+$post-header-num-date-background-color: #202020;
+$post-header-num-date-color: #f8f8f8;
+$post-header-num-date-size: 3.6rem;
+$post-header-num-date-date-size: .95rem;
+$post-header-num-date-line-height: 1.1;
+$post-header-num-date-num-size: 2rem;
+$post-header-title-size: 1.8rem;
+$post-header-title-line-height: 1.2;
+$post-header-area-tags-size: .88rem;
+
+//calculated values
+$post-header-num-date-date-margin-top: ($post-header-num-date-date-size * $post-header-num-date-line-height * 3)/2;
+$post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-header-num-date-line-height)/2;
+
+.post-header {
+  margin-bottom: $spacing-unit;
+  // Work the entire top area
+  .post-num-date-title {
+    margin-top: $spacing-unit/2;
+    // Make two overlapping boxes for the post # and the date. For UX make it unselectable.
+    .post-num-date {
+      position: relative;
+      width: $post-header-num-date-size;
+      height: $post-header-num-date-size;
+      display: inline-block;
+      vertical-align: middle;
+      user-select: none;
+      -webkit-user-select: none;
+      .post-date, .post-num {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: $post-header-num-date-size;
+        height: $post-header-num-date-size;
+        line-height: $post-header-num-date-line-height;
+        text-align: center;
+        border-radius: 3.5px;
+        background-color: $post-header-num-date-background-color;
+        color: $post-header-num-date-color;
+        cursor: default;
+      }
+      //Center the texts
+      .post-date p {
+        position: relative;
+        font-size: $post-header-num-date-date-size;
+        top: $post-header-num-date-size/2;
+        margin-top: -#{$post-header-num-date-date-margin-top};
+        span {
+          display: block;
+          font-weight: 900;
+        }
+      }
+      .post-num p {
+        position: relative;
+        top: $post-header-num-date-size/2;
+        font-size: $post-header-num-date-num-size;
+        margin-top: -#{$post-header-num-date-num-margin-top};
+      }
+      //Add animation so that on hover it shows date
+      .post-num {
+        transition: all .15s ease;
+        opacity: 1;
+        &:hover,&:active {
+          opacity: 0;
+        }
+      }
+    }
+    //Keep this sized to just fit
+    .post-title {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+      padding-left: $spacing-unit/3;
+      font-size: $post-header-title-size;
+      line-height: $post-header-title-line-height;
+      width: -webkit-calc(100% - #{$post-header-num-date-size} - #{$spacing-unit/3});
+      width: calc(100% - #{$post-header-num-date-size} - #{$spacing-unit/3});
+    }
+  }
+  //make the tags slightly inset
+  .post-areas-tags {
+    margin-top: $spacing-unit/5;
+    margin-bottom: 0;
+    font-size: $post-header-area-tags-size;
+    a {
+      color: $grey-color-dark;
+      text-decoration-color: fade-out($grey-color, .6);
+      &:hover {
+      text-decoration-color: darken(fade-out($grey-color, .2), 8%);
+      }
+    }
+  }
+}
