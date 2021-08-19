@@ -34,6 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-redirect-from
 logo:
   enable: false
   first-visit: assets/logo-first.svg
@@ -47,6 +48,12 @@ collections:
     output: true
   tags:
     output: true
+# :post_num is from custom plugin
+# redirect-from here is shim'd to posts by the same
+# custom plugin and is not the same thing as
+# redirect_from which takes a map!
+permalink: /:post_num/:slug
+redirect-from: /:post_num/
 
 # Footer Data (also includes description from metadata
 show-description: false
