@@ -1,0 +1,117 @@
+// Footer partial
+
+
+/**
+ * Footer Section
+ */
+
+// Utility mixins
+// use in ul or ol (untested) to make inline list
+@mixin inline-list($interpadding) {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    padding-right: $interpadding;
+  }
+  > :last-child {
+    padding-right: 0;
+  }
+}
+// makes the element into a block and centers it
+@mixin center-block {
+  display: block;
+  width: max-content;
+  margin: auto;
+  max-width: inherit;
+}
+
+$footer-vertical-rhythm: $spacing-unit/3;
+
+// Style code
+.site-footer {
+  // isolate the footer
+  font-size: $small-font-size;
+  .wrapper {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit/2 0;
+  }
+  
+  p {
+    @include center-block;
+    color: $grey-color;
+    text-align: center;
+    margin-bottom: $footer-vertical-rhythm;
+  }
+  
+  /* Description Text */
+  .description {
+    font-size: .95em;
+    font-size: .95em;
+    width: -webkit-calc(80% - (#{$spacing-unit} / 2));
+    width:         calc(80% - (#{$spacing-unit} / 2));
+  }
+  
+  .copyright-text {
+    /* small fudge factor to account for change in line heights */
+    margin-top: $footer-vertical-rhythm/4;
+    .symbol {
+      font-family: $core-font-family;
+      padding-right: .25em;
+      font-size: 1.25em;
+      vertical-align: middle;
+    }
+  }
+  
+  /* Social list */
+  .social {
+    @include center-block;
+    margin-bottom: $footer-vertical-rhythm;
+    .social-list {
+      @include inline-list(5px);
+      li .social-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+      }
+      a &:hover {
+        text-decoration: none;
+      }
+    }
+    p {
+      display: inline-block;
+      margin-bottom: 0;
+      &.social-pre {
+        padding-right: .5em;
+      }
+      &.social-post {
+        padding-left: .5em;
+      }
+    }
+  }
+  
+  /* Related sites */
+  .related {
+    @include center-block;
+    margin-bottom: $footer-vertical-rhythm;
+    .related-sites {
+      @include inline-list(5px);
+      a {
+        color: $grey-color;
+        text-decoration-color: fade-out($grey-color, .6);
+        &:hover {
+        text-decoration-color: darken(fade-out($grey-color, .2), 8%);
+        }
+      }
+    }
+    p {
+      display: inline-block;
+      &.related-pre {
+        padding-right: .5em;
+      }
+      &.related-post {
+        padding-left: .5em;
+      }
+    }
+  }
+}
