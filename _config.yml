@@ -56,8 +56,8 @@ copyright:
     2021 Adam Li / @BuildingAtom
 # Icons are automatically pulled from simpleicons.org. Use the
 # slug name as the tag and pay attention to brand guidelines.
-social-pre:
-social-suf: Socials
+social-pre: 
+social-post: Socials
 socials:
   twitter: https://www.twitter.com/BuildingAtom
   github:  https://github.com/BuildingAtom

@@ -6,12 +6,12 @@
     
     <ul class="social-list">
       {%- for social in site.socials -%}
-        <li><a href="{{ social[1] | uri_escape }}"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/{{ social[0] | escape }}.svg" /></a></li>
+        <li><a href="{{ social[1] | uri_escape }}"><img class= "social-icon" height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/{{ social[0] | escape }}.svg" /></a></li>
       {%- endfor -%}
     </ul>
     
-    {%- if site.social-suf -%}
-      <p class="social-suf">{{ site.social-suf }}</p>
+    {%- if site.social-post -%}
+      <p class="social-post">{{ site.social-post }}</p>
     {%- endif -%}
   </div>
 {%- endif -%}
