@@ -18,15 +18,13 @@ $post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-he
   // Work the entire top area
   .post-num-date-title {
     margin-top: $spacing-unit/2;
-    // Make two overlapping boxes for the post # and the date. For UX make it unselectable.
+    // Make two overlapping boxes for the post # and the date.   
     .post-num-date {
       position: relative;
       width: $post-header-num-date-size;
       height: $post-header-num-date-size;
       display: inline-block;
       vertical-align: middle;
-      user-select: none;
-      -webkit-user-select: none;
       .post-date, .post-num {
         position: absolute;
         top: 0;
@@ -52,6 +50,9 @@ $post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-he
         }
       }
       .post-num p {
+        // For UX make the number unselectable. 
+        user-select: none;
+        -webkit-user-select: none;
         position: relative;
         top: $post-header-num-date-size/2;
         font-size: $post-header-num-date-num-size;
@@ -59,13 +60,21 @@ $post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-he
       }
       //Add animation so that on hover it shows date
       .post-num {
-        transition: all .15s ease;
-        opacity: 1;
-        &:hover,&:active {
-          opacity: 0;
+      transition: all .15s ease;
+      opacity: 1;
+      &:hover {
+        opacity: 0;
         }
       }
     }
+    // Also make it so it does the same action as hover on click.
+    .post-num-date-trigger {
+      display: none;
+    }
+    input:checked ~ label .post-num {
+      opacity: 0;
+    }
+    
     //Keep this sized to just fit
     .title {
       display: inline-block;

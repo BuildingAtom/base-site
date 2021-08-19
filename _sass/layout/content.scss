@@ -9,8 +9,11 @@ $content-title-size: 1.8rem;
 $content-title-line-height: 1.2;
 
 .content {
-  padding: $spacing-unit/3 0;
+  padding: $spacing-unit/2 0;
   flex: 1;
+}
+.page-header {
+  margin-top: $spacing-unit/2;
 }
 .title {
   margin: 0;

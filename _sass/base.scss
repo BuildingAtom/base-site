@@ -167,11 +167,15 @@ pre {
   vertical-align: middle;
 	filter: $social-icon-filter;
 }
-
 .symbol {
   font-family: $core-font-family;
   font-size: 1.25em;
   vertical-align: middle;
+  display: inline-block;
+  text-decoration: none;
+  a {
+    text-decoration: none;
+  }
 }
 
 /**

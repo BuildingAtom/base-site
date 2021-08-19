@@ -1,35 +1,18 @@
-I'll update this readme later, once this is actually more presentable, lol. Code is loosely built off of minima, but does have (very few) sections borrowed from it.
-
 # base-site
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+This is the basic site template I'm using to create my personal site. It is still very much under development and far from complete relative to the designs I have planned out for it, but it's getting there.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
-
+I was looking to create a relatively simplistic (at least in appearance) site that put the majority of the focus on the what while still providing the other necessities.
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "base-site"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: base-site
-```
-
-And then execute:
+Start with getting the dependencies for Jekyll, then clone or fork the repository to get the base files, and get project dependencies by executing:
 
     $ bundle
 
-Or install it yourself as:
+Then launch with:
 
-    $ gem install base-site
+    $ jekyll serve
 
 ## Usage
 
@@ -37,18 +20,13 @@ TODO: Write usage instructions here. Describe your available layouts, includes, 
 
 ## Contributing
 
+TODO: 
+
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `base-site.gemspec` accordingly.
-
 ## License
+
+TODO: 
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
