@@ -4,6 +4,8 @@ This is the basic site template I'm using to create my personal site. It is stil
 
 I was looking to create a relatively simplistic (at least in appearance) site that put the majority of the focus on the what while still providing the other necessities. It includes Bootstrap icons, so you can add any icon from https://icons.getbootstrap.com/.
 
+Setup CI by adding PUBLISH_TOKEN to the repo secrets storing a Personal access token to it (but only do this after verifying the github workflow file!
+
 ## Installation
 
 Start with getting the dependencies for Jekyll, then clone or fork the repository to get the base files, and get project dependencies by executing:
