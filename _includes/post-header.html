@@ -18,12 +18,12 @@
   </div>
   <p class="post-areas-tags">
   {%- for area in post.areas -%}
-    <a href="{{ area | prepend: '/areas/' | relative_url }}" class="post-areas"><span class="large-symbol"><i class="bi bi-journal-bookmark-fill"></i></span>{{ area | escape }}</a>{%- unless forloop.last -%},&nbsp;{%- elsif post.tags.size > 0 or page.comments != false and jekyll.environment == "production" -%};&nbsp;{%- else -%}&nbsp;{%- endunless -%}
+    <a href="{{ area | prepend: '/areas/' | relative_url }}" class="post-areas"><span class="large-symbol"><i class="bi bi-journal-bookmark-fill"></i></span>{{ area | escape }}</a>{%- unless forloop.last -%},&nbsp;{%- elsif post.tags.size > 0 or site.disqus.shortname and page.comments != false and jekyll.environment == "production" -%};&nbsp;{%- else -%}&nbsp;{%- endunless -%}
   {%- endfor -%}
   {%- for tag in post.tags -%}
-    <a href="{{ tag | prepend: '/tags/' | relative_url }}" class="post-tags"><span class="large-symbol">#</span>{{ tag | escape }}</a>{%- unless forloop.last -%},&nbsp;{%- elsif page.comments != false and jekyll.environment == "production" -%};&nbsp;{%- else -%}&nbsp;{%- endunless -%}
+    <a href="{{ tag | prepend: '/tags/' | relative_url }}" class="post-tags"><span class="large-symbol">#</span>{{ tag | escape }}</a>{%- unless forloop.last -%},&nbsp;{%- elsif site.disqus.shortname and page.comments != false and jekyll.environment == "production" -%};&nbsp;{%- else -%}&nbsp;{%- endunless -%}
   {%- endfor -%}
-  {%- if page.comments != false and jekyll.environment == "production" -%}
+  {%- if site.disqus.shortname and page.comments != false and jekyll.environment == "production" -%}
     <a href="{{ post.url | absolute_url | append: '#disqus_thread'}}" class="bi bi-chat">Add a comment</a>
   {%- endif -%}
   </p>
