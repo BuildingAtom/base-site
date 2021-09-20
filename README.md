@@ -2,7 +2,7 @@
 
 This is the basic site template I'm using to create my personal site. It is still very much under development and far from complete relative to the designs I have planned out for it, but it's getting there.
 
-I was looking to create a relatively simplistic (at least in appearance) site that put the majority of the focus on the what while still providing the other necessities.
+I was looking to create a relatively simplistic (at least in appearance) site that put the majority of the focus on the what while still providing the other necessities. It includes Bootstrap icons, so you can add any icon from https://icons.getbootstrap.com/.
 
 ## Installation
 

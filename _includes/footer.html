@@ -6,7 +6,7 @@
     {%- endif -%}
     
     {%- if site.copyright -%}
-      <p class="copyright-text">{%- if site.copyright.symbol -%}<span class="symbol">&copy;</span> {%- endif -%}{{ site.copyright.text | markdownify | remove_first: "<p>" }}
+      <p class="copyright-text">{%- if site.copyright.symbol -%}<span class="large-symbol">&copy;</span> {%- endif -%}{{ site.copyright.text | markdownify | remove_first: "<p>" }}
     {%- endif -%}
     
     {%- include social.html -%}

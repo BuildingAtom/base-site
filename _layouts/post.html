@@ -15,5 +15,10 @@ layout: default
     {{ content }}
   </div>
   
-  <!-- do I add disqus? -->
 </article>
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
+{% if page.comments != false and jekyll.environment == "production" %}
+  <script id="dsq-count-scr" src="//{{ site.disqus.shortname }}.disqus.com/count.js" async></script>
+{% endif %}
