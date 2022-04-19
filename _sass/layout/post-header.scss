@@ -4,6 +4,7 @@
 $post-header-num-date-background-color: #202020;
 $post-header-num-date-color: #f8f8f8;
 $post-header-num-date-size: 3.6rem;
+$post-header-num-date-padding: 0.1rem;
 $post-header-num-date-date-size: .95rem;
 $post-header-num-date-line-height: 1.1;
 $post-header-num-date-num-size: 2rem;
@@ -18,18 +19,28 @@ $post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-he
   // Work the entire top area
   .post-num-date-title {
     margin-top: $spacing-unit/2;
+    // Add stuff to make this a flex display
+    label {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+    }
     // Make two overlapping boxes for the post # and the date.   
     .post-num-date {
       position: relative;
-      width: $post-header-num-date-size;
+      //width: $post-header-num-date-size;
+      //width: max-content;
       height: $post-header-num-date-size;
-      display: inline-block;
-      vertical-align: middle;
+      //display: inline-block;
+      //vertical-align: middle;
       .post-date, .post-num {
         position: absolute;
         top: 0;
         left: 0;
-        width: $post-header-num-date-size;
+        //width: $post-header-num-date-size;
+        min-width: 100%;
         height: $post-header-num-date-size;
         line-height: $post-header-num-date-line-height;
         text-align: center;
@@ -37,6 +48,12 @@ $post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-he
         background-color: $post-header-num-date-background-color;
         color: $post-header-num-date-color;
         cursor: pointer;
+      }
+      //Fixes for more arbitrary number lengths
+      .post-num {
+        position: inherit;
+        display: inline-block;
+        line-height: $post-header-num-date-size;
       }
       //Center the texts
       .post-date p {
@@ -54,9 +71,12 @@ $post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-he
         user-select: none;
         -webkit-user-select: none;
         position: relative;
-        top: $post-header-num-date-size/2;
+        //top: $post-header-num-date-size/2
+        top: 0;
+        min-width: $post-header-num-date-size - $post-header-num-date-padding*2;
+        padding: 0 $post-header-num-date-padding;
         font-size: $post-header-num-date-num-size;
-        margin-top: -#{$post-header-num-date-num-margin-top};
+        //margin-top: -#{$post-header-num-date-num-margin-top};
       }
       //Add animation so that on hover it shows date
       .post-num {
@@ -77,11 +97,11 @@ $post-header-num-date-num-margin-top: ($post-header-num-date-num-size * $post-he
     
     //Keep this sized to just fit
     .title {
-      display: inline-block;
-      vertical-align: middle;
+      //display: inline-block;
+      //vertical-align: middle;
       padding-left: $spacing-unit/3;
-      width: -webkit-calc(100% - #{$post-header-num-date-size} - #{$spacing-unit/3});
-      width: calc(100% - #{$post-header-num-date-size} - #{$spacing-unit/3});
+      //width: -webkit-calc(100% - #{$post-header-num-date-size} - #{$spacing-unit/3});
+      //width: calc(100% - #{$post-header-num-date-size} - #{$spacing-unit/3});
       a {
         color: $text-color;
         text-decoration: none;
