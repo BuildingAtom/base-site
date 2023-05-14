@@ -11,7 +11,7 @@ jobs:
     env:
       JEKYLL_ENV: production
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       
       - name: setup ruby
         uses: ruby/setup-ruby@v1
@@ -26,6 +26,6 @@ jobs:
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PUBLISH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
