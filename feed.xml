@@ -1,296 +1,296 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-14T22:28:12+00:00</updated><id>/feed.xml</id><title type="html">BuildingAtom Base Site</title><subtitle>The base theme used for BuildingAtom.io</subtitle><entry><title type="html">markdown test</title><link href="/2/markdown-test" rel="alternate" type="text/html" title="markdown test" /><published>2021-08-19T00:00:00+00:00</published><updated>2021-08-19T00:00:00+00:00</updated><id>/2/markdown-test</id><content type="html" xml:base="/2/markdown-test">&lt;h1 id=&quot;h1-heading-8-&quot;&gt;h1 Heading 8-)&lt;/h1&gt;
-&lt;h2 id=&quot;h2-heading&quot;&gt;h2 Heading&lt;/h2&gt;
-&lt;h3 id=&quot;h3-heading&quot;&gt;h3 Heading&lt;/h3&gt;
-&lt;h4 id=&quot;h4-heading&quot;&gt;h4 Heading&lt;/h4&gt;
-&lt;h5 id=&quot;h5-heading&quot;&gt;h5 Heading&lt;/h5&gt;
-&lt;h6 id=&quot;h6-heading&quot;&gt;h6 Heading&lt;/h6&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-16T07:14:22+00:00</updated><id>/feed.xml</id><title type="html">BuildingAtom Base Site</title><subtitle>The base theme used for BuildingAtom.io</subtitle><entry><title type="html">markdown test</title><link href="/2/markdown-test" rel="alternate" type="text/html" title="markdown test" /><published>2021-08-19T00:00:00+00:00</published><updated>2021-08-19T00:00:00+00:00</updated><id>/2/markdown-test</id><content type="html" xml:base="/2/markdown-test"><![CDATA[<h1 id="h1-heading-8-">h1 Heading 8-)</h1>
+<h2 id="h2-heading">h2 Heading</h2>
+<h3 id="h3-heading">h3 Heading</h3>
+<h4 id="h4-heading">h4 Heading</h4>
+<h5 id="h5-heading">h5 Heading</h5>
+<h6 id="h6-heading">h6 Heading</h6>
 
-&lt;h2 id=&quot;horizontal-rules&quot;&gt;Horizontal Rules&lt;/h2&gt;
+<h2 id="horizontal-rules">Horizontal Rules</h2>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;hr /&gt;
+<hr />
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h2 id=&quot;typographic-replacements&quot;&gt;Typographic replacements&lt;/h2&gt;
+<h2 id="typographic-replacements">Typographic replacements</h2>
 
-&lt;p&gt;Enable typographer option to see result.&lt;/p&gt;
+<p>Enable typographer option to see result.</p>
 
-&lt;p&gt;(c) (C) (r) (R) (tm) (TM) (p) (P) +-&lt;/p&gt;
+<p>(c) (C) (r) (R) (tm) (TM) (p) (P) +-</p>
 
-&lt;p&gt;test.. test… test….. test?….. test!….&lt;/p&gt;
+<p>test.. test… test….. test?….. test!….</p>
 
-&lt;p&gt;!!!!!! ???? ,,  – —&lt;/p&gt;
+<p>!!!!!! ???? ,,  – —</p>
 
-&lt;p&gt;“Smartypants, double quotes” and ‘single quotes’&lt;/p&gt;
+<p>“Smartypants, double quotes” and ‘single quotes’</p>
 
-&lt;h2 id=&quot;emphasis&quot;&gt;Emphasis&lt;/h2&gt;
+<h2 id="emphasis">Emphasis</h2>
 
-&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
+<p><strong>This is bold text</strong></p>
 
-&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
+<p><strong>This is bold text</strong></p>
 
-&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
+<p><em>This is italic text</em></p>
 
-&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
+<p><em>This is italic text</em></p>
 
-&lt;p&gt;&lt;del&gt;Strikethrough&lt;/del&gt;&lt;/p&gt;
+<p><del>Strikethrough</del></p>
 
-&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
+<h2 id="blockquotes">Blockquotes</h2>
 
-&lt;blockquote&gt;
-  &lt;p&gt;Blockquotes can also be nested…&lt;/p&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;…by using additional greater-than signs right next to each other…&lt;/p&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;…or with spaces between arrows.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>Blockquotes can also be nested…</p>
+  <blockquote>
+    <p>…by using additional greater-than signs right next to each other…</p>
+    <blockquote>
+      <p>…or with spaces between arrows.</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
 
-&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
+<h2 id="lists">Lists</h2>
 
-&lt;p&gt;Unordered&lt;/p&gt;
+<p>Unordered</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Create a list by starting a line with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt;, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Sub-lists are made by indenting 2 spaces:
-    &lt;ul&gt;
-      &lt;li&gt;Marker character change forces new list start:
-        &lt;ul&gt;
-          &lt;li&gt;Ac tristique libero volutpat at&lt;/li&gt;
-          &lt;li&gt;Facilisis in pretium nisl aliquet&lt;/li&gt;
-          &lt;li&gt;Nulla volutpat aliquam velit&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Very easy!&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Create a list by starting a line with <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">-</code>, or <code class="language-plaintext highlighter-rouge">*</code></li>
+  <li>Sub-lists are made by indenting 2 spaces:
+    <ul>
+      <li>Marker character change forces new list start:
+        <ul>
+          <li>Ac tristique libero volutpat at</li>
+          <li>Facilisis in pretium nisl aliquet</li>
+          <li>Nulla volutpat aliquam velit</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Very easy!</li>
+</ul>
 
-&lt;p&gt;Ordered&lt;/p&gt;
+<p>Ordered</p>
 
-&lt;ol&gt;
-  &lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
-  &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Integer molestie lorem at massa&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;You can use sequential numbers…&lt;/li&gt;
-  &lt;li&gt;…or keep all the numbers as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Lorem ipsum dolor sit amet</li>
+  <li>Consectetur adipiscing elit</li>
+  <li>
+    <p>Integer molestie lorem at massa</p>
+  </li>
+  <li>You can use sequential numbers…</li>
+  <li>…or keep all the numbers as <code class="language-plaintext highlighter-rouge">1.</code></li>
+</ol>
 
-&lt;p&gt;Start numbering with offset:&lt;/p&gt;
+<p>Start numbering with offset:</p>
 
-&lt;ol&gt;
-  &lt;li&gt;foo&lt;/li&gt;
-  &lt;li&gt;bar&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>foo</li>
+  <li>bar</li>
+</ol>
 
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+<h2 id="code">Code</h2>
 
-&lt;p&gt;Inline &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;code&lt;/code&gt;&lt;/p&gt;
+<p>Inline <code class="language-plaintext highlighter-rouge">code</code></p>
 
-&lt;p&gt;Indented code&lt;/p&gt;
+<p>Indented code</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// Some comments
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Some comments
 line 1 of code
 line 2 of code
 line 3 of code
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p&gt;Block code “fences”&lt;/p&gt;
+<p>Block code “fences”</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Sample text here...
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sample text here...
+</code></pre></div></div>
 
-&lt;p&gt;Syntax highlighting&lt;/p&gt;
+<p>Syntax highlighting</p>
 
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">bar</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">bar</span><span class="o">++</span><span class="p">;</span>
+<span class="p">};</span>
 
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">foo</span><span class="p">(</span><span class="mi">5</span><span class="p">));</span>
+</code></pre></div></div>
 
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+<h2 id="tables">Tables</h2>
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Option&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;data&lt;/td&gt;
-      &lt;td&gt;path to data files to supply the data that will be passed into templates.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;engine&lt;/td&gt;
-      &lt;td&gt;engine to be used for processing templates. Handlebars is the default.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ext&lt;/td&gt;
-      &lt;td&gt;extension to be used for dest files.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>data</td>
+      <td>path to data files to supply the data that will be passed into templates.</td>
+    </tr>
+    <tr>
+      <td>engine</td>
+      <td>engine to be used for processing templates. Handlebars is the default.</td>
+    </tr>
+    <tr>
+      <td>ext</td>
+      <td>extension to be used for dest files.</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;p&gt;Right aligned columns&lt;/p&gt;
+<p>Right aligned columns</p>
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Option&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;data&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;path to data files to supply the data that will be passed into templates.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;engine&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;engine to be used for processing templates. Handlebars is the default.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;ext&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;extension to be used for dest files.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Option</th>
+      <th style="text-align: right">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">data</td>
+      <td style="text-align: right">path to data files to supply the data that will be passed into templates.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">engine</td>
+      <td style="text-align: right">engine to be used for processing templates. Handlebars is the default.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ext</td>
+      <td style="text-align: right">extension to be used for dest files.</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+<h2 id="links">Links</h2>
 
-&lt;p&gt;&lt;a href=&quot;http://dev.nodeca.com&quot;&gt;link text&lt;/a&gt;&lt;/p&gt;
+<p><a href="http://dev.nodeca.com">link text</a></p>
 
-&lt;p&gt;&lt;a href=&quot;http://nodeca.github.io/pica/demo/&quot; title=&quot;title text!&quot;&gt;link with title&lt;/a&gt;&lt;/p&gt;
+<p><a href="http://nodeca.github.io/pica/demo/" title="title text!">link with title</a></p>
 
-&lt;p&gt;Autoconverted link https://github.com/nodeca/pica (enable linkify to see)&lt;/p&gt;
+<p>Autoconverted link https://github.com/nodeca/pica (enable linkify to see)</p>
 
-&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
+<h2 id="images">Images</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/minion.png&quot; alt=&quot;Minion&quot; /&gt;
-&lt;img src=&quot;https://octodex.github.com/images/stormtroopocat.jpg&quot; alt=&quot;Stormtroopocat&quot; title=&quot;The Stormtroopocat&quot; /&gt;&lt;/p&gt;
+<p><img src="https://octodex.github.com/images/minion.png" alt="Minion" />
+<img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Stormtroopocat" title="The Stormtroopocat" /></p>
 
-&lt;p&gt;Like links, Images also have a footnote style syntax&lt;/p&gt;
+<p>Like links, Images also have a footnote style syntax</p>
 
-&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/dojocat.jpg&quot; alt=&quot;Alt text&quot; title=&quot;The Dojocat&quot; /&gt;&lt;/p&gt;
+<p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat" /></p>
 
-&lt;p&gt;With a reference later in the document defining the URL location:&lt;/p&gt;
+<p>With a reference later in the document defining the URL location:</p>
 
-&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+<h2 id="plugins">Plugins</h2>
 
-&lt;p&gt;The killer feature of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown-it&lt;/code&gt; is very effective support of
-&lt;a href=&quot;https://www.npmjs.org/browse/keyword/markdown-it-plugin&quot;&gt;syntax plugins&lt;/a&gt;.&lt;/p&gt;
+<p>The killer feature of <code class="language-plaintext highlighter-rouge">markdown-it</code> is very effective support of
+<a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin">syntax plugins</a>.</p>
 
-&lt;h3 id=&quot;emojies&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-emoji&quot;&gt;Emojies&lt;/a&gt;&lt;/h3&gt;
+<h3 id="emojies"><a href="https://github.com/markdown-it/markdown-it-emoji">Emojies</a></h3>
 
-&lt;blockquote&gt;
-  &lt;p&gt;Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:&lt;/p&gt;
+<blockquote>
+  <p>Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</p>
 
-  &lt;p&gt;Shortcuts (emoticons): :-) :-( 8-) ;)&lt;/p&gt;
-&lt;/blockquote&gt;
+  <p>Shortcuts (emoticons): :-) :-( 8-) ;)</p>
+</blockquote>
 
-&lt;p&gt;see &lt;a href=&quot;https://github.com/markdown-it/markdown-it-emoji#change-output&quot;&gt;how to change output&lt;/a&gt; with twemoji.&lt;/p&gt;
+<p>see <a href="https://github.com/markdown-it/markdown-it-emoji#change-output">how to change output</a> with twemoji.</p>
 
-&lt;h3 id=&quot;subscript--superscript&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-sub&quot;&gt;Subscript&lt;/a&gt; / &lt;a href=&quot;https://github.com/markdown-it/markdown-it-sup&quot;&gt;Superscript&lt;/a&gt;&lt;/h3&gt;
+<h3 id="subscript--superscript"><a href="https://github.com/markdown-it/markdown-it-sub">Subscript</a> / <a href="https://github.com/markdown-it/markdown-it-sup">Superscript</a></h3>
 
-&lt;ul&gt;
-  &lt;li&gt;19^th^&lt;/li&gt;
-  &lt;li&gt;H~2~O&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>19^th^</li>
+  <li>H~2~O</li>
+</ul>
 
-&lt;h3 id=&quot;ins&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-ins&quot;&gt;&amp;lt;ins&amp;gt;&lt;/a&gt;&lt;/h3&gt;
+<h3 id="ins"><a href="https://github.com/markdown-it/markdown-it-ins">&lt;ins&gt;</a></h3>
 
-&lt;p&gt;++Inserted text++&lt;/p&gt;
+<p>++Inserted text++</p>
 
-&lt;h3 id=&quot;mark&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-mark&quot;&gt;&amp;lt;mark&amp;gt;&lt;/a&gt;&lt;/h3&gt;
+<h3 id="mark"><a href="https://github.com/markdown-it/markdown-it-mark">&lt;mark&gt;</a></h3>
 
-&lt;p&gt;==Marked text==&lt;/p&gt;
+<p>==Marked text==</p>
 
-&lt;h3 id=&quot;footnotes&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-footnote&quot;&gt;Footnotes&lt;/a&gt;&lt;/h3&gt;
+<h3 id="footnotes"><a href="https://github.com/markdown-it/markdown-it-footnote">Footnotes</a></h3>
 
-&lt;p&gt;Footnote 1 link&lt;sup id=&quot;fnref:first&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:first&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+<p>Footnote 1 link<sup id="fnref:first" role="doc-noteref"><a href="#fn:first" class="footnote" rel="footnote">1</a></sup>.</p>
 
-&lt;p&gt;Footnote 2 link&lt;sup id=&quot;fnref:second&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:second&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+<p>Footnote 2 link<sup id="fnref:second" role="doc-noteref"><a href="#fn:second" class="footnote" rel="footnote">2</a></sup>.</p>
 
-&lt;p&gt;Inline footnote^[Text of inline footnote] definition.&lt;/p&gt;
+<p>Inline footnote^[Text of inline footnote] definition.</p>
 
-&lt;p&gt;Duplicated footnote reference&lt;sup id=&quot;fnref:second:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:second&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+<p>Duplicated footnote reference<sup id="fnref:second:1" role="doc-noteref"><a href="#fn:second" class="footnote" rel="footnote">2</a></sup>.</p>
 
-&lt;h3 id=&quot;definition-lists&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-deflist&quot;&gt;Definition lists&lt;/a&gt;&lt;/h3&gt;
+<h3 id="definition-lists"><a href="https://github.com/markdown-it/markdown-it-deflist">Definition lists</a></h3>
 
-&lt;dl&gt;
-  &lt;dt&gt;Term 1&lt;/dt&gt;
-  &lt;dd&gt;
-    &lt;p&gt;Definition 1
-with lazy continuation.&lt;/p&gt;
-  &lt;/dd&gt;
-  &lt;dt&gt;Term 2 with &lt;em&gt;inline markup&lt;/em&gt;&lt;/dt&gt;
-  &lt;dd&gt;
-    &lt;p&gt;Definition 2&lt;/p&gt;
+<dl>
+  <dt>Term 1</dt>
+  <dd>
+    <p>Definition 1
+with lazy continuation.</p>
+  </dd>
+  <dt>Term 2 with <em>inline markup</em></dt>
+  <dd>
+    <p>Definition 2</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{ some code, part of Definition 2 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ some code, part of Definition 2 }
+</code></pre></div>    </div>
 
-    &lt;p&gt;Third paragraph of definition 2.&lt;/p&gt;
-  &lt;/dd&gt;
-&lt;/dl&gt;
+    <p>Third paragraph of definition 2.</p>
+  </dd>
+</dl>
 
-&lt;p&gt;&lt;em&gt;Compact style:&lt;/em&gt;&lt;/p&gt;
+<p><em>Compact style:</em></p>
 
-&lt;p&gt;Term 1
-  ~ Definition 1&lt;/p&gt;
+<p>Term 1
+  ~ Definition 1</p>
 
-&lt;p&gt;Term 2
+<p>Term 2
   ~ Definition 2a
-  ~ Definition 2b&lt;/p&gt;
+  ~ Definition 2b</p>
 
-&lt;h3 id=&quot;abbreviations&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-abbr&quot;&gt;Abbreviations&lt;/a&gt;&lt;/h3&gt;
+<h3 id="abbreviations"><a href="https://github.com/markdown-it/markdown-it-abbr">Abbreviations</a></h3>
 
-&lt;p&gt;This is &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; abbreviation example.&lt;/p&gt;
+<p>This is <abbr title="Hyper Text Markup Language">HTML</abbr> abbreviation example.</p>
 
-&lt;p&gt;It converts “&lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt;”, but keep intact partial entries like “xxxHTMLyyy” and so on.&lt;/p&gt;
+<p>It converts “<abbr title="Hyper Text Markup Language">HTML</abbr>”, but keep intact partial entries like “xxxHTMLyyy” and so on.</p>
 
-&lt;h3 id=&quot;custom-containers&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-container&quot;&gt;Custom containers&lt;/a&gt;&lt;/h3&gt;
+<h3 id="custom-containers"><a href="https://github.com/markdown-it/markdown-it-container">Custom containers</a></h3>
 
-&lt;p&gt;::: warning
-&lt;em&gt;here be dragons&lt;/em&gt;
-:::&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:first&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Footnote &lt;strong&gt;can have markup&lt;/strong&gt;&lt;/p&gt;
+<p>::: warning
+<em>here be dragons</em>
+:::</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:first" role="doc-endnote">
+      <p>Footnote <strong>can have markup</strong></p>
 
-      &lt;p&gt;and multiple paragraphs. &lt;a href=&quot;#fnref:first&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:second&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Footnote text. &lt;a href=&quot;#fnref:second&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:second:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="markdown" /><summary type="html">h1 Heading 8-) h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/1/welcome-to-jekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-08-17T05:28:23+00:00</published><updated>2021-08-17T05:28:23+00:00</updated><id>/1/welcome-to-jekyll</id><content type="html" xml:base="/1/welcome-to-jekyll">&lt;h1 id=&quot;a-random-title&quot;&gt;A random title&lt;/h1&gt;
-&lt;h2 id=&quot;a-random-title2&quot;&gt;A random title2&lt;/h2&gt;
-&lt;h3 id=&quot;a-random-title3&quot;&gt;A random title3&lt;/h3&gt;
-&lt;h4 id=&quot;a-random-title4&quot;&gt;A random title4&lt;/h4&gt;
-&lt;p&gt;&lt;span class=&quot;cabin&quot;&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/span&gt;&lt;/p&gt;
+      <p>and multiple paragraphs. <a href="#fnref:first" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:second" role="doc-endnote">
+      <p>Footnote text. <a href="#fnref:second" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:second:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="markdown" /><summary type="html"><![CDATA[h1 Heading 8-) h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/1/welcome-to-jekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-08-17T05:28:23+00:00</published><updated>2021-08-17T05:28:23+00:00</updated><id>/1/welcome-to-jekyll</id><content type="html" xml:base="/1/welcome-to-jekyll"><![CDATA[<h1 id="a-random-title">A random title</h1>
+<h2 id="a-random-title2">A random title2</h2>
+<h3 id="a-random-title3">A random title3</h3>
+<h4 id="a-random-title4">A random title4</h4>
+<p><span class="cabin">You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</span></p>
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+<p>Jekyll requires blog post files to be named according to the following format:</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+<p>Jekyll also offers powerful support for code snippets:</p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">A random title A random title2 A random title3 A random title4 You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[A random title A random title2 A random title3 A random title4 You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
